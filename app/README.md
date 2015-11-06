@@ -12,8 +12,8 @@ Web Application
 Mac OSX - I suggest [Homebrew](http://brew.sh/), Linux - use your package manager
 
 * [Maven](https://maven.apache.org/) `brew install maven`
-* [bower](http://bower.io/) `brew install bower`
-* (you might need [npm](https://www.npmjs.com/) (node package manager)
+* [npm](https://www.npmjs.com/) (node package manager) for bower 
+* [bower](http://bower.io/) `npm install -g bower`
 
 
 #### Setup Project
@@ -25,5 +25,13 @@ Mac OSX - I suggest [Homebrew](http://brew.sh/), Linux - use your package manage
 
 #### Run Project
 * `mvn jetty:run`
+* navigate to [localhost:8080/app/](localhost:8080/app/) in your web browser
+Changes are live for the front end, so any javascript or HTML will be updated on page refresh. 
+The server must be stopped and rerun to recompile the back end java.
 
 
+#### Getting Started
+All of the bootstrap css documentation is helpful, the grid system is good to use. The bootstrap javascript has some cool stuff.
+[bootstrap css grid](http://getbootstrap.com/css/#grid)
+[bootstrap javascript](http://getbootstrap.com/javascript/)
+[angular tutorial](https://docs.angularjs.org/tutorial/step_00)
