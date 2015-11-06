@@ -21,7 +21,7 @@ Mac OSX - I suggest [Homebrew](http://brew.sh/), Linux - use your package manage
 * in `/app`
 * Install javascript dependencies: `bower install`
 * Install dependencies with maven: `mvn clean install`
-* Get *odjbc6.jar* from [Oracle](http://www.oracle.com/technetwork/apps-tech/jdbc-112010-090769.html) (you will need to make an account) and put it in `0/app`, then run
+* Get **odjbc6.jar** from [Oracle](http://www.oracle.com/technetwork/apps-tech/jdbc-112010-090769.html) (you will need to make an account) and put it in `0/app`, then run
 ```mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=12.1.0.1 -Dpackaging=jar -Dfile=ojdbc6.jar -DgeneratePom=true```
 
 #### Run Project
