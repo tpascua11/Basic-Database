@@ -38,3 +38,5 @@ All of the bootstrap css documentation is helpful, the grid system is good to us
 
 #### Notes
 Angular JS is a front end web application framework - It is used for the directives. You can create you own, but there are many built in you can use. It allows html attributes that can show content conditionally, ones that can loop over an array, and there's others. Angular has what is called [two-way-binding](https://docs.angularjs.org/tutorial/step_04), ```"whenever the model changes (for example because a user changes the order with the select drop down menu), Angular's data-binding will cause the view to automatically update. No bloated DOM manipulation code is necessary!"```
+
+Bootsrtap is a CSS framework - its as simple as adding a class to the html element
