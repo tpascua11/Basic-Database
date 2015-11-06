@@ -5,7 +5,8 @@ Web Application
 * front end web application framework: [AngularJS](https://docs.angularjs.org/api)
 * web package manager: bower
 * front end css framework: [bootstrap](http://getbootstrap.com/css/)
-* back end web application framework: [Spring](http://projects.spring.io/spring-framework/) 
+* back end web application framework: [Spring](http://projects.spring.io/spring-framework/)
+* [Spring+JDBC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html)
 * development server plugin: Jetty
 
 #### Tools you need to install
