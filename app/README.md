@@ -12,7 +12,7 @@ Web Application
 Mac OSX - I suggest [Homebrew](http://brew.sh/), Linux - use your package manager
 
 * [Maven](https://maven.apache.org/) `brew install maven`
-* [npm](https://www.npmjs.com/) (node package manager) for bower 
+* [npm](https://www.npmjs.com/) (node package manager) for bower `brew install npm`
 * [bower](http://bower.io/) `npm install -g bower`
 
 
