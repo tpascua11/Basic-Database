@@ -17,6 +17,10 @@ angular.module('WebApp', [
         templateUrl: 'views/home.html',
         controller: 'HomeCtrl'
       })
+      .when('/lookout', {
+        templateUrl: 'views/lookout.html',
+        controller: 'HomeCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
