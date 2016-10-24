@@ -1,0 +1,10 @@
+Introduction
+  The Grape Company objective is to plant grapes fields, get workers
+  to harvest the grapes, and store the grapes into a storage for future sells.
+
+
+
+  
+
+
+

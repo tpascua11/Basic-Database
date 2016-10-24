@@ -11,6 +11,7 @@ angular.module('WebApp')
 .controller('MainCtrl', function ($scope, $log, $http) {
 
   $scope.getEmployeeNames = function() {
+    console.log("did it happen?");
     $http({
       url: '/app/employee/name',
       method: "GET"
@@ -20,10 +21,14 @@ angular.module('WebApp')
       $scope.emp = data;
 
       $log.debug(data);
+      console.log($scope.emp);
 
     }).error(function (data, status, headers, config) {
       $log.error(status + " Error obtaining name data: " + data);
     });
+  }
+  $scope.doSomethingNOW = function(){
+    getEmployeeNames();
   }
 
 });
